@@ -1,0 +1,15 @@
+{
+  "dataset_name": "HappyDB experience memories",
+  "data_origin": "human_self_reports",
+  "source_repository": "https://github.com/megagonlabs/HappyDB",
+  "source_download": "https://raw.githubusercontent.com/megagonlabs/HappyDB/master/happydb/data/original_hm.csv",
+  "active_input": "data/happydb/sample_500.jsonl",
+  "source_records": 500,
+  "stored_chunks": 500,
+  "anonymous_contributors": 198,
+  "sample_sha256": "7b44fe2c5e547d575161de9e674953e1c5d7ff92bd618bc1cb7f2fb0cbdf6948",
+  "database_directory": "chroma_store_happydb",
+  "collection": "happydb_experiences_minilm_v1",
+  "perspective": "third-party self-reports, not the user's acquaintances",
+  "synthetic_contact_data_removed": true
+}
