@@ -314,3 +314,16 @@ User prompt (verbatim):
   the network-enabled check confirmed the existing account is authenticated.
 - Removed a machine-specific example path from .env.example and clarified that
   users configure their own key. A clean-copy reproduction check is next.
+
+## Clean-copy reproduction before publication
+
+- Exported the committed source into an isolated folder with no personal .env,
+  downloaded dataset, database, or native runtime copied from the working app.
+- Created a new Python environment, installed the pinned requirements, prepared
+  the signed local Windows runtime, downloaded the public HappyDB source and
+  indexed all 500 sample records successfully.
+- All 16 unit tests passed in that environment; a separate process confirmed
+  500 persisted chunks. The local embedding-model cache was shared with this
+  machine; first-run model downloading remains documented in the README.
+- This check does not use a DeepSeek key. Earlier live pipeline checks are
+  recorded above. The authorized GitHub publication is the next action.
