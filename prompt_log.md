@@ -327,3 +327,24 @@ User prompt (verbatim):
   machine; first-run model downloading remains documented in the README.
 - This check does not use a DeepSeek key. Earlier live pipeline checks are
   recorded above. The authorized GitHub publication is the next action.
+
+## Publication and student demo preparation
+
+- Published this standalone project to the public repository
+  https://github.com/RyanZhou123232/vector-memory . Verified that the remote main
+  commit matched the local commit and README.md / prompt_log.md were present.
+- The student reported that the local demonstration test worked:
+
+> ok我测试了一下都没问题。把演示add note的题目换成一个新的题目我重新add，然后重新retrieve
+
+- Supplied alternative fictional demo notes and differently worded retrieval
+  questions for recording runtime addition and immediate semantic search. These
+  are demo inputs, not HappyDB source records. No additional execution by the
+  assistant is claimed for those alternatives.
+- Rechecked the submission-form requirements against the published documents.
+  README includes the student's first four sections, both semantic examples and
+  original source text, AI-use disclosure, attribution and a clearly labeled
+  AI-generated technical guide. This separate log preserves development history,
+  tools and important verbatim prompts; it does not fabricate elapsed work time.
+- Video upload/access permissions, portfolio publication and the Google form's
+  confirmation email have not been independently verified by the assistant.
